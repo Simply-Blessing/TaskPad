@@ -1,0 +1,23 @@
+[
+    {
+        "id": 2,
+        "description": "Wash my wig",
+        "status": "Todo",
+        "createdAt": "2025-10-01",
+        "updatedAt": "2025-10-01"
+    },
+    {
+        "id": 4,
+        "description": "Buy groceries",
+        "status": "In-Progress",
+        "createdAt": "2025-10-01",
+        "updatedAt": "2025-10-01"
+    },
+    {
+        "id": 5,
+        "description": "Buy sandwich",
+        "status": "In-Progress",
+        "createdAt": "2025-10-01",
+        "updatedAt": "2025-10-01"
+    }
+]
