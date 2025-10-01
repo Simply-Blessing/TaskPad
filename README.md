@@ -77,11 +77,15 @@ List tasks:
 $ python taskpad.py list 
 
 List with filters applied:
-$python taskpad.py list -s/--status Done 
-$python taskpad.py list -c/--created 2025 
-$python taskpad.py list -u/--updated 2025-09-30
 
-🧪 Testing
+$ python taskpad.py list -s/--status Done 
+
+$ python taskpad.py list -c/--created 2025 
+
+$ python taskpad.py list -u/--updated 2025-09-30
+
+## 🧪 Testing
+
 pytest test_taskpad.py 
 
 
