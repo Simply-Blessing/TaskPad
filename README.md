@@ -1,15 +1,15 @@
-🌸 TaskPad
+## 🌸 TaskPad
 
 A minimal, cute, and practical way to track tasks right from your terminal.
 
-📖 What is TaskPad?
+## 📖 What is TaskPad?
 
 TaskPad is a command-line productivity buddy that helps you keep track of tasks without the clutter.
 Whether you want to jot down a quick reminder, manage your daily work, or just have a to-do list that actually feels simple, TaskPad has you covered.
 
 It’s clean, lightweight, and all your tasks live in a simple JSON file.
 
-✨ Features 
+## ✨ Features 
 
 🌟 Add Tasks → Write down tasks quickly without quotes or fuss.
 
@@ -27,7 +27,7 @@ Status → Todo, In-Progress, Done
 
 Created / Updated Date → Filter by YYYY or exact YYYY-MM-DD
 
-🗂 How It’s Built
+## 🗂 How It’s Built
 
 TaskPad is split into a few simple files:
 
@@ -45,25 +45,24 @@ test_taskpad.py → Unit tests powered by pytest 🧪
 
 taskpad_widget.py → A small GUI window to run TaskPad if you don’t want to stay in the terminal.
 
-⚙️ Installation
+## ⚙️ Installation
 
 Install TaskPad directly from GitHub:
 
 pip install git+https://github.com/simply-blessing/taskpad.git
-
 
 Or clone the repo manually:
 
 git clone https://github.com/simply-blessing/taskpad.git
 cd taskpad
 
-🚀 Usage 
+## 🚀 Usage 
 
 Add a task:
 $ python taskpad.py add Finish homework
 
 Update a task:
-$ python taskpad.py upadte 1 Finish Molecular Biology Report
+$ python taskpad.py update 1 Finish Molecular Biology Report
 
 Mark as in progress:
 $ python taskpad.py mark-in-progress 1 
