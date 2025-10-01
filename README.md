@@ -12,10 +12,15 @@ It’s clean, lightweight, and all your tasks live in a simple JSON file.
 ✨ Features 
 
 🌟 Add Tasks → Write down tasks quickly without quotes or fuss.
+
 🖊 Update Tasks → Edit descriptions anytime.
+
 ⏳ In-Progress → Track what you’re currently working on.
+
 ✅ Done → Celebrate finished work.
+
 🗑 Delete → Remove tasks you don’t need anymore.
+
 📋 List Everything → Show tasks in a neat table, or filter by:
 
 Status → Todo, In-Progress, Done
