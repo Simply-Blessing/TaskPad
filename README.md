@@ -14,19 +14,19 @@ It’s clean, lightweight, and all your tasks live in a simple JSON file.
 
 ## ✨ Features 
 
-🌟 Add Tasks → Write down tasks quickly without quotes or fuss.
+🌟 add Tasks → Write down tasks quickly without quotes or fuss.
 
-🖊 Update Tasks → Edit descriptions anytime.
+🖊 update Tasks → Edit descriptions anytime.
 
-⏳ In-Progress → Track what you’re currently working on.
+⏳ mark-in-progress → Track what you’re currently working on.
 
-✅ Done → Celebrate finished work.
+✅ mark-done → Celebrate finished work.
 
-🗑 Delete → Remove tasks you don’t need anymore.
+🗑 delete → Remove tasks you don’t need anymore.
 
-📋 List Everything → Show tasks in a neat table, or filter by:
-  * Status → Todo, In-Progress, Done
-  * Created / Updated Date → Filter by YYYY or exact YYYY-MM-DD
+📋 list Everything → Show tasks in a neat table, or filter by:
+  * status → todo, in-progress, done
+  * created / updated Date → Filter by YYYY or exact YYYY-MM-DD
 
 ---
 
@@ -86,7 +86,7 @@ python taskpad.py list
 ```
 List with filters applied:
 ```bash
-python taskpad.py list -s/--status Done 
+python taskpad.py list -s/--status done 
 python taskpad.py list -c/--created 2025 
 python taskpad.py list -u/--updated 2025-09-30
 ```
