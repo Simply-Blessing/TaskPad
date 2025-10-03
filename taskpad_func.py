@@ -62,7 +62,7 @@ def add_task(description):
     new_task = {
         "id": new_id,
         "description": description,
-        "status": "Todo",
+        "status": "todo",
         "createdAt": str(datetime.date.today()),
         "updatedAt": str(datetime.date.today())
     }
@@ -70,7 +70,7 @@ def add_task(description):
     save_tasks(tasks) #remember to save the task
     return tabulate_task([new_task]) # produce the table format of the dictionary
 
-#now let's work on the update logic statment 
+#now let's work on the update logic statement 
 
 def update_task(task_id, description):
     tasks = load_tasks()
@@ -86,7 +86,7 @@ def mark_in_progress(task_id):
     tasks = load_tasks()
     for task in tasks:
         if task["id"] == task_id:
-            task["status"] = "In-Progress"
+            task["status"] = "in-progress"
             task["updatedAt"] = str(datetime.date.today())
             save_tasks(tasks)
             return tabulate_task([task])
@@ -96,7 +96,7 @@ def mark_done(task_id):
     tasks = load_tasks()
     for task in tasks:
         if task["id"] == task_id:
-            task["status"] = "Done"
+            task["status"] = "done"
             task["updatedAt"] =str(datetime.date.today())
             save_tasks(tasks)
             return tabulate_task([task])
