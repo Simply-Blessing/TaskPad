@@ -24,7 +24,7 @@ def test_add_task():
 
     assert len(tasks) == 1 
     assert tasks[0]["description"] == "Finish homework"
-    assert tasks[0]["status"] == "Todo"
+    assert tasks[0]["status"] == "todo"
     assert "Finish homework" in result
 
 def test_update_track():
@@ -40,7 +40,7 @@ def test_mark_in_progress():
     result = taskpad_func.mark_in_progress(1)
     tasks = taskpad_func.load_tasks()
 
-    assert tasks[0]["status"] == "In-Progress"
+    assert tasks[0]["status"] == "in-progress"
     assert "Pack for university" in result
 
 def test_mark_done():
@@ -48,7 +48,7 @@ def test_mark_done():
     result = taskpad_func.mark_done(1)
     tasks = taskpad_func.load_tasks()
 
-    assert tasks[0]["status"] == "Done"
+    assert tasks[0]["status"] == "done"
     assert "Stargazing on friday" in result
 
 def test_delete():
@@ -104,7 +104,7 @@ def test_list_task_status():
     taskpad_func.add_task(tasks[4])
     taskpad_func.mark_done(5)
     
-    result = taskpad_func.list_tasks(status="Done")
+    result = taskpad_func.list_tasks(status="done")
     done_tasks = [tasks[3],tasks[4]]
     for task in done_tasks:
         assert task in result
