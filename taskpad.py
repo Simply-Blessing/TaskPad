@@ -52,9 +52,9 @@ def main():
     list_parse = subparsers.add_parser('list',help='List all the tasks or filter based on status or date')
     list_parse.add_argument(
         "-s","--status",
-        help="Filter tasks by status (Todo, Done, In-Progress)",
+        help="Filter tasks by status (todo, done, in-progress)",
         type=str,
-        choices=["Todo","Done","In-Progress"])
+        choices=["todo","done","in-progress"])
     list_parse.add_argument(
         '-c',"--created",
         help="Filter tasks by creation date (YYYY or YYYY-MM-DD)",
